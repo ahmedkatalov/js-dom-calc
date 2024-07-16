@@ -91,7 +91,8 @@ function handleClear() {
   updateDisplay('0');
 }
 
-// ... (HTML-код калькулятора) ...
+
+//обработчики событий
 
 document.querySelectorAll('.number').forEach(button => {
   button.addEventListener('click', () => {
